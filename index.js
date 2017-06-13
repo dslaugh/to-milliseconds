@@ -11,18 +11,15 @@ function typeCheck(val) {
 }
 
 function fromSeconds(seconds) {
-	const checkedSeconds = typeCheck(seconds);
-	return 1000 * checkedSeconds;
+	return 1000 * typeCheck(seconds);
 }
 
 function fromMinutes(minutes) {
-	const checkedMinutes = typeCheck(minutes);
-	return fromSeconds(60) * checkedMinutes;
+	return fromSeconds(60) * typeCheck(minutes);
 }
 
 function fromHours(hours) {
-	const checkedHours = typeCheck(hours);
-	return fromMinutes(60) * checkedHours;
+	return fromMinutes(60) * typeCheck(hours);
 }
 
 function fromDays(days) { 
