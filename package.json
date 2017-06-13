@@ -1,0 +1,11 @@
+{
+  "name": "to-milliseconds",
+  "version": "1.0.0",
+  "description": "A utility to convert days, hours, minutes, and seconds to milliseconds",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Slaugh",
+  "license": "ISC"
+}
