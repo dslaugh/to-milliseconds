@@ -4,8 +4,16 @@
   "description": "A utility to convert days, hours, minutes, and seconds to milliseconds",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dslaugh/to-milliseconds.git"
   },
   "author": "David Slaugh",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dslaugh/to-milliseconds/issues"
+  },
+  "homepage": "https://github.com/dslaugh/to-milliseconds#readme"
 }
